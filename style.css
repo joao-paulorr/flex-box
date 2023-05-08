@@ -1,0 +1,15 @@
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 30px;
+    align-items: center;
+    color: rgb(231, 136, 240);
+}
+body {
+    height: 500px;
+    border: 3px solid rgb(204, 0, 255);
+    background-color: rgb(91, 0, 99);
+}
