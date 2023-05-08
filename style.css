@@ -8,8 +8,8 @@
     align-items: center;
     color: rgb(231, 136, 240);
 }
+
 body {
-    height: 500px;
-    border: 3px solid rgb(204, 0, 255);
     background-color: rgb(91, 0, 99);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
