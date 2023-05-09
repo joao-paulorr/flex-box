@@ -1,25 +1,29 @@
-#title {
+#cabecario {
     display: flex;
     justify-content: center;
+}
+
+#title {
     flex-wrap: wrap;
+    text-align: center;
+    font-size: x-large;
 }
 
 #corpo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
 }
 
-#esquerdo p {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+#esquerdo {
+    width: 75%;
+    height: 80vh;
 }
 
-#direito p {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+#direito {
+    width: 25%;
+    height: 80vh;
 }
 
 body {
