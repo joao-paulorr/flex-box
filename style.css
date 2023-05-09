@@ -18,12 +18,15 @@
 
 #esquerdo {
     width: 75%;
-    height: 80vh;
+    height: 180vh;
+    border: 5px solid purple;
 }
 
 #direito {
     width: 25%;
     height: 80vh;
+    border: 5px solid purple;
+    align-self: flex-start;
 }
 
 body {
