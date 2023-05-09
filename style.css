@@ -4,6 +4,24 @@
     flex-wrap: wrap;
 }
 
+#corpo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#esquerdo p {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#direito p {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
 body {
     background-color: rgb(91, 0, 99);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
