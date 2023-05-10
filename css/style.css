@@ -3,10 +3,11 @@
     justify-content: center;
 }
 
-#title {
+#title img {
     flex-wrap: wrap;
     text-align: center;
     font-size: x-large;
+    height: 150px;
 }
 
 #corpo {
@@ -19,18 +20,17 @@
 #esquerdo {
     width: 105%;
     height: 180vh;
-    border: 5px solid purple;
 }
 
 #direito {
     width: 25%;
     height: 80vh;
-    border: 5px solid purple;
+    border: 5px solid rgb(55, 0, 128);
     align-self: flex-start;
 }
 
 body {
-    background-color: rgb(91, 0, 99);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(231, 136, 240);
+    background-color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(26, 0, 141);
 }
