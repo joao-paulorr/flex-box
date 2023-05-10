@@ -32,10 +32,11 @@
     align-self: flex-start;
 }
 
-body {
+* {
     background-color: rgb(212, 213, 253);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(26, 0, 141);
+    text-align: center;
 }
 
 #menu ul li {
