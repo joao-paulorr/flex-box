@@ -28,26 +28,27 @@
 #direito {
     width: 15%;
     height: 65vh;
-    border: 5px solid rgb(55, 0, 128);
+    border: 5px solid rgb(28, 18, 43);
+    border-radius: 28px;
     align-self: flex-start;
 }
 
 * {
     background-color: rgb(186, 221, 245);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(26, 0, 141);
+    color: rgb(21, 16, 44);
     text-align: center;
 }
 
 #menu ul li {
-    display: inline;
+    display: inline-flex;
 }
 
 #menu ul li a {
     color: rgb(165, 147, 255);
     padding: 20px;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     background-color: rgb(255, 255, 255);
 }
 
