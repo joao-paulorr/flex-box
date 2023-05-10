@@ -15,24 +15,45 @@
 #corpo {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
+    margin: auto;
 }
 
 #esquerdo {
     width: 85%;
-    height: 180vh;
+    height: 150vh;
 }
 
 #direito {
-    width: 45%;
-    height: 180vh;
+    width: 25%;
+    height: 75vh;
     border: 5px solid rgb(55, 0, 128);
     align-self: flex-start;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(212, 213, 253);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(26, 0, 141);
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: rgb(165, 147, 255);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+#menu ul li a:hover {
+    background-color: rgb(26, 0, 141);
+}
+
+#menu ul {
+    text-align: center;
 }
