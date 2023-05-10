@@ -40,24 +40,56 @@
     text-align: center;
 }
 
-#menu ul li {
-    display: inline-flex;
+.menu-bar {
+    background-color: #1988f7;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
-#menu ul li a {
-    color: rgb(165, 147, 255);
-    padding: 20px;
-    text-decoration: none;
-    display: inline;
-    background-color: rgb(255, 255, 255);
+.item {
+    color: rgb(21, 16, 44);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
 }
 
-#menu ul li a:hover {
-    background-color: rgb(26, 0, 141);
-    transition: background-color 1s ease 0s;
-
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-#menu ul {
-    text-align: center;
+.gallery-wrapper {
+    background-color: #dbdbdb;
+    box-sizing: border-box;
+    height: 195px;
+    overflow: hidden;
+}
+
+.gallery-scroll {
+    box-sizing: border-box;
+    height: 195px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.gallery {
+    background-color: #dbdbdb;
+    display: flex;
+    box-sizing: border-box;
+    width: 85%;
+    height: 180px;
+    padding: 0px 8px;
+}
+
+.item {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px 8px;
+}
+
+.item img {
+    display: block;
+    height: 100%;
 }

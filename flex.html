@@ -12,11 +12,14 @@
 <body>
     <div id="container">
         <div id="cabecario">
-            <nav id="menu">
-                <ul>
-                    <li><a href="flex.html">Saveiro</a></li>
-                    <li><a href="quemsomos.html">Quem somos?</a></li>
-                </ul>
+            <nav class="menu">
+                <div class="group">
+                    <a class="item title">Volkswagen</a>
+                </div>
+                <div class="group">
+                    <a class="item" href="flex.html">Saveiro</a>
+                    <a class="item" href="quemsomos.html">Quem somos?</a>
+                </div>
                 <div id="title">
                     <h1>Volkswagen</h1>
                     <img src="css/logo-volkswagen-4096.png">
@@ -27,37 +30,56 @@
                 <h1>Saveiro</h1>
                 <img
                     src="css/28_1004_SAV_21_CROSS_AZUL_3_4_TRASEIRA_RECOMPENSA__AMB_COM_CICLISTA_Highlights_1_1 (1).jpeg">
-                <h2>Pronta para tudo.</h2>
-                <p>A Saveiro conta com uma identidade visual própria e muita inovação tecnológica. A picape da
-                    Volkswagen traz robustez, versatilidade e incorpora os sistemas de infotainment Volkswagen
-                    App-Connect, os mais modernos e interativos do mercado. O modelo conta ainda com três opções de
-                    carroceria (simples, estendida e dupla) e recursos de segurança como ESC (controle eletrônico de
-                    estabilidade) e freios ABS off-road.</p>
-                <h2>Tecnologia e Conectividade</h2>
-                <p>Os principais comandos podem ser executados no volante, diminuindo a necessidade de o motorista tirar
-                    as mãos dele. Além disso, é possível selecionar as mídias, operar o telefone e o sistema de
-                    navegação só com a voz. Tem também, <b>Sistema Infotainment</b>; O moderno sistema infotainment
-                    possui navegação integrada e tela colorida de altíssima definição, também possui conectividade com
-                    smartphones por meio da tecnologia App-Connect. <b>Tilt Down</b>; dá uma mãozinha para as balizas.
-                    Ela rebate o espelho retrovisor direito automaticamente quando o motorista engata a marcha a ré,
-                    facilitando a visualização de obstáculos e poupando o ajuste manual dos espelhos a todo momento.
-                    <b>Park Pilot</b>; Será que o carro está muito próximo a um obstáculo? Com o Park Pilot, você nunca
-                    mais vai ficar na dúvida. Seus sensores de estacionamento traseiros mostram o controlador de
-                    distância no display do rádio.
-                </p>
-            </div>
-            <div id="direito">
-                <h1>Informações</h1>
-                <h3>Ano de Fabricação</h3>
-                <p>1982 até 2023</p>
-                <h3>Preço Médio</h3>
-                <p>R$ 86.447</p>
-                <h4>Parcele em até 12x</h4>
-                <p>Para mais informações acesse <a
-                        href="https://www.vw.com.br/pt/configurador.html/__app/saveiro/saveiro-robust-cs.app?carlineId-app=30345&modelId-app=5UFNU4&modelVersion-app=1&modelYear-app=2023&salesGroupId-app=31570&category-app=private&trimName-app=Robust+CS&exteriorId-app=F14+B4B4&interiorId-app=F56+++++UQ&buildabilityStatus-app=buildable&---=%7B%22configuration-step-navigation-service%22%3A%22%2F%3FconfigStep%3D%257B%2522context%2522%253A%252230345-31570-Robust%2BCS%2522%252C%2522selectedStep%2522%253A%2522engine%2522%257D%22%7D">aqui.</a>
-                </p>
+                <div class="gallery-wrapper">
+                    <div class="gallery-scroll">
+                        <div class="gallery">
+                            <div class="item">
+                                <img src="https://assets.volkswagen.com/is/image/volkswagenag/28_1001_SAV_21_CROSS_AZUL_3_4_FRENTE_PARTIU_AVENTURA__AMB_ACAO_Highlights_1_1?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTUwMCZoZWk9MjgxJmFsaWduPTAuMDAsMC4wMCZiZmM9b2ZmJjMwZjQ="
+                                    alt="Image" />
+                            </div>
+                            <div class="item">
+                                <img src="https://assets.volkswagen.com/is/image/volkswagenag/28_1005_SAV_21_CROSS_AZUL_LATERAL_MELHOR_CAMINHO__AMB_Highlights_1_1_?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTUwMCZoZWk9MjgxJmFsaWduPTAuMDAsMC4wMCZiZmM9b2ZmJjMwZjQ="
+                                    alt="Image" />
+                            </div>
+                            <div class="item">
+                                <img src="https://assets.volkswagen.com/is/image/volkswagenag/28_1002_SAV_21_CROSS_AZUL_3_4_TRASEIRA_DE_VOLTA_LAR__AMB_ACAO_Highlights_1_1?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTUwMCZoZWk9MjgxJmFsaWduPTAuMDAsMC4wMCZiZmM9b2ZmJjMwZjQ="
+                                    alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <h2>Pronta para tudo.</h2>
+            <p>A Saveiro conta com uma identidade visual própria e muita inovação tecnológica. A picape da
+                Volkswagen traz robustez, versatilidade e incorpora os sistemas de infotainment Volkswagen
+                App-Connect, os mais modernos e interativos do mercado. O modelo conta ainda com três opções de
+                carroceria (simples, estendida e dupla) e recursos de segurança como ESC (controle eletrônico de
+                estabilidade) e freios ABS off-road.</p>
+            <h2>Tecnologia e Conectividade</h2>
+            <p>Os principais comandos podem ser executados no volante, diminuindo a necessidade de o motorista tirar
+                as mãos dele. Além disso, é possível selecionar as mídias, operar o telefone e o sistema de
+                navegação só com a voz. Tem também, <b>Sistema Infotainment</b>; O moderno sistema infotainment
+                possui navegação integrada e tela colorida de altíssima definição, também possui conectividade com
+                smartphones por meio da tecnologia App-Connect. <b>Tilt Down</b>; dá uma mãozinha para as balizas.
+                Ela rebate o espelho retrovisor direito automaticamente quando o motorista engata a marcha a ré,
+                facilitando a visualização de obstáculos e poupando o ajuste manual dos espelhos a todo momento.
+                <b>Park Pilot</b>; Será que o carro está muito próximo a um obstáculo? Com o Park Pilot, você nunca
+                mais vai ficar na dúvida. Seus sensores de estacionamento traseiros mostram o controlador de
+                distância no display do rádio.
+            </p>
             </div>
         </div>
+        <div id="direito">
+            <h1>Informações</h1>
+            <h3>Ano de Fabricação</h3>
+            <p>1982 até 2023</p>
+            <h3>Preço Médio</h3>
+            <p>R$ 86.447</p>
+            <h4>Parcele em até 12x</h4>
+            <p>Para mais informações acesse <a
+                    href="https://www.vw.com.br/pt/configurador.html/__app/saveiro/saveiro-robust-cs.app?carlineId-app=30345&modelId-app=5UFNU4&modelVersion-app=1&modelYear-app=2023&salesGroupId-app=31570&category-app=private&trimName-app=Robust+CS&exteriorId-app=F14+B4B4&interiorId-app=F56+++++UQ&buildabilityStatus-app=buildable&---=%7B%22configuration-step-navigation-service%22%3A%22%2F%3FconfigStep%3D%257B%2522context%2522%253A%252230345-31570-Robust%2BCS%2522%252C%2522selectedStep%2522%253A%2522engine%2522%257D%22%7D">aqui.</a>
+            </p>
+        </div>
+    </div>
     </div>
 </body>
 
