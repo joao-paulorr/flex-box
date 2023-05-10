@@ -21,20 +21,20 @@
 }
 
 #esquerdo {
-    width: 85%;
+    width: 55%;
     height: 150vh;
 }
 
 #direito {
-    width: 25%;
-    height: 75vh;
+    width: 15%;
+    height: 65vh;
     border: 5px solid rgb(55, 0, 128);
     align-self: flex-start;
 }
 
 * {
-    background-color: rgb(212, 213, 253);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(186, 221, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(26, 0, 141);
     text-align: center;
 }
@@ -53,6 +53,8 @@
 
 #menu ul li a:hover {
     background-color: rgb(26, 0, 141);
+    transition: background-color 1s ease 0s;
+
 }
 
 #menu ul {
