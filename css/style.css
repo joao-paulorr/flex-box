@@ -7,7 +7,9 @@
     flex-wrap: wrap;
     text-align: center;
     font-size: x-large;
-    height: 150px;
+    height: 155px;
+    width: auto;
+    margin: auto;
 }
 
 #corpo {
@@ -18,19 +20,19 @@
 }
 
 #esquerdo {
-    width: 105%;
+    width: 85%;
     height: 180vh;
 }
 
 #direito {
-    width: 25%;
-    height: 80vh;
+    width: 45%;
+    height: 180vh;
     border: 5px solid rgb(55, 0, 128);
     align-self: flex-start;
 }
 
 body {
     background-color: rgb(255, 255, 255);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(26, 0, 141);
 }
