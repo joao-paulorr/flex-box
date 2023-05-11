@@ -23,15 +23,22 @@
 
 #esquerdo {
     width: 55%;
-    height: 150vh;
+    height: 177vh;
 }
 
 #direito {
-    width: 15%;
-    height: 65vh;
+    width: 25%;
+    height: 88vh;
     border: 5px solid rgb(28, 18, 43);
-    border-radius: 28px;
+    border-radius: 20px;
     align-self: flex-start;
+}
+
+#imagem_direito {
+    width: 15%;
+    height: 88vh;
+    align-self: flex-start;
+    flex-flow: wrap;
 }
 
 * {
