@@ -40,13 +40,6 @@
     text-align: center;
 }
 
-.menu-bar {
-    background-color: #1988f7;
-    display: flex;
-    justify-content: flex-start;
-    box-sizing: border-box;
-}
-
 .item {
     color: rgb(21, 16, 44);
     background-color: transparent;
