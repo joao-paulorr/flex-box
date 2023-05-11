@@ -14,10 +14,11 @@
 
 #corpo {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-evenly;
     text-align: center;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 #esquerdo {
@@ -40,6 +41,25 @@
     text-align: center;
 }
 
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: rgb(9, 0, 90);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(128, 130, 255)
+}
+
+#menu ul {
+    text-align: center;
+}
+
 .item {
     color: rgb(21, 16, 44);
     background-color: transparent;
@@ -54,7 +74,7 @@
 }
 
 .gallery-wrapper {
-    background-color: #dbdbdb;
+    background-color: #bac4ff;
     box-sizing: border-box;
     height: 195px;
     overflow: hidden;
@@ -68,7 +88,7 @@
 }
 
 .gallery {
-    background-color: #dbdbdb;
+    background-color: #bac4ff;
     display: flex;
     box-sizing: border-box;
     width: max-content; height: 180px;
