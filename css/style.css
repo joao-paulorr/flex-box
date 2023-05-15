@@ -23,7 +23,12 @@
 
 #esquerdo {
     width: 55%;
-    height: 177vh;
+    height: 200vh;
+}
+
+#recursos ul li {
+    list-style: none;
+    text-align: center;
 }
 
 #direito {
