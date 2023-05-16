@@ -55,17 +55,20 @@
 
 #menu ul li {
     display: inline;
+    justify-content: space-around;
 }
 
 #menu ul li a {
-    color: rgb(9, 0, 90);
+    color: rgb(169, 166, 201);
     padding: 20px;
     text-decoration: none;
     display: inline-block;
+    background-color: black;
 }
 
 #menu ul li a:hover {
-    background-color: rgb(128, 130, 255)
+    background-color: rgb(128, 130, 255);
+    color: rgb(75, 75, 250);
 }
 
 #menu ul {
